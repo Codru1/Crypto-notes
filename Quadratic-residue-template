@@ -1,0 +1,10 @@
+qr = []
+for x in ints:
+    if(pow(x, (p-1) // 2, p) == 1):
+        print("(+) Quadratic residue found: " + str(x) + "\n")
+        qr.append(x)
+#check if p % 4 = 3
+if p%4==3:
+    for y in qr:
+        root = pow(y, (p + 1) // 4, p)
+        print("[+] root found: " + str(root))
