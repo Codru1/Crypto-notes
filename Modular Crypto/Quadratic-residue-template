@@ -1,3 +1,4 @@
+ints=[]
 qr = []
 for x in ints:
     if(pow(x, (p-1) // 2, p) == 1):
